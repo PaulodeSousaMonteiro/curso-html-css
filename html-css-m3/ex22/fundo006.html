@@ -6,16 +6,24 @@
     <title>Document</title>
     <style>
         body{
+            /*
             height: 98vh;
             background-color: black;
             background-image: url(imagens-cap19/wallpaper002.jpg);
             background-position: center center;
             background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shothan - backgroun
+                color > image > position > repeat > [size] > attachmente
+            */
+            background: black url(imagens-cap19/wallpaper002.jpg) center center no-repeat fixed;
+            background-size:  cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
